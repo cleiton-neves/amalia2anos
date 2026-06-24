@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amália - 2 Aninhos</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <audio id="bgMusic" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="overlay">
+
+            <h1>Convite da Amália</h1>
+
+            <h2>👑2 Aninhos👑</h2>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p>Bem-vindos ao Reino Encantado das Princesas Baby</p>
+
+            <button id="btnEntrar">
+                ✨ Entrar no Reino Encantado ✨
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- HISTÓRIA -->
+    <section class="story">
+
+        <h2>Era uma vez uma princesinha...</h2>
+
+        <p>
+            Há dois anos nasceu uma menina que transformou nossas vidas
+            com muito amor, alegria e momentos inesquecíveis.
+        </p>
+
+    </section>
+
+    <!-- GALERIA -->
+    <section class="gallery">
+
+        <h2>Nossa História</h2>
+
+        <div class="gallery-grid">
+
+            <img src="foto01.jpg">
+            <img src="foto02.jpg">
+            <img src="foto03.jpg">
+            <img src="foto08.jpg">
+            <img src="foto13.jpg">
+            <img src="foto14.jpg">
+            <img src="foto15.jpg">
+	    <img src="foto19.jpg">
+	    <img src="foto20.jpg">
+            <img src="foto21.jpg">
+	    <img src="foto27.jpg">
+	    <img src="foto35.jpg">
+	    <img src="foto36.jpg">
+            <img src="foto37.jpg">
+	    <img src="foto38.jpg">
+		
+		
+        </div>
+
+    </section>
+
+    <!-- CONTAGEM -->
+    <section class="countdown">
+
+        <h2>Faltam</h2>
+
+        <div id="timer"></div>
+
+    </section>
+
+    <!-- CONVITE -->
+    <section class="invite">
+
+        <div class="card">
+
+            <h2>👑 Convite Oficial 👑</h2>
+
+            <p><strong>Data:</strong> 02/08/2026</p>
+
+            <p><strong>Horário:</strong> 17:00</p>
+
+            <p>
+                <strong>Local:</strong><br>
+                Salão de Eventos do Condomínio Unique Higienópolis
+            </p>
+
+            <p>
+                Av. dos Estudantes, S/N<br>
+                Cidade Universitária<br>
+                Rondonópolis - MT
+            </p>
+
+            <button onclick="abrirMapa()">
+                📍 Ver Localização
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- RSVP -->
+    <section class="rsvp">
+
+        <h2>Confirmar Presença</h2>
+
+        <input id="nome" placeholder="Seu nome">
+
+        <input id="adultos" type="number" placeholder="Adultos">
+
+        <input id="criancas" type="number" placeholder="Crianças">
+
+        <button onclick="confirmarPresenca()">
+            💖 Confirmar via WhatsApp
+        </button>
+
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+
+        <h2>✨ Sua presença será o maior presente ✨</h2>
+
+        <p>
+            Com carinho,<br>
+            Cleiton, Nilsa, Arthur, Otávio e  Amália.
+        </p>
+
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
